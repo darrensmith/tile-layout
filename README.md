@@ -1,2 +1,4 @@
-# tile-layout
-A Tile Layout in HTML5/CSS
+## tile-layout
+
+Just a quick and easy tile based layout in HTML5/CSS
+

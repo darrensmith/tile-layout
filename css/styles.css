@@ -1,0 +1,57 @@
+.home {
+	background: #444444;
+	padding-top:20px;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+  	position: relative; 
+}
+
+.box, .bigbox, .widebox {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.bigbox {
+  background-color: white;
+  width: 210px;
+  height: 210px;
+  display:inline-block;
+  margin-top:50px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.widebox {
+  background-color: white;
+  width: 210px;
+  height: 100px;
+}
+
+.greytext {
+	color: #444444;
+}
+
+.logo {
+  text-align:center; 
+  padding-top:90px;
+}
+
+a>.bigbox {
+  margin-left:20px;
+}
+
+.heading {
+  color:white; 
+  text-align:center;
+  text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+}
